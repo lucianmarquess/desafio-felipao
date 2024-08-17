@@ -1,7 +1,7 @@
 let Heroi = "Itachi"
 let nivelDoHeroi = 10001
 
-if (nivelDoHeroi <1000){
+if (nivelDoHeroi <=1000){
     console.log("O Herói de nome " + Heroi + " está no nivel de Ferro") 
 }else if (nivelDoHeroi >=1001 && nivelDoHeroi <=2000){
     console.log("O Herói de nome " + Heroi + " está no nivel de Bronze")
@@ -19,6 +19,19 @@ if (nivelDoHeroi <1000){
 }else{
     console.log("O Herói de nome " + Heroi + " está no nivel Radiante")
 } 
+
+
+/* Eu demorei para fazer este código, confesso. 
+Por mais simples que seja, eu demorei bastante. Não copiei, mas pedi ajuda ao ChatGPT 
+em algumas ocasiões, porém sem copiar o código dele. Pedi mais ajuda quando tentava fazer
+ usando switch case, mas depois percebi que estava tendo mais dificuldade e passei a utilizar if e else if, 
+ o que me permitiu evoluir mais. No entanto, na última linha de código, eu já estava ficando frustrado porque estava colocando
+  uma condição no else. Pedi ao ChatGPT para verificar o que poderia estar errado, pois estavam aparecendo duas condições: "FERRO" e "RADIANTE". 
+  Ele me explicou que eu estava colocando condições no else onde não deveria.
+
+*/
+
+// Não conseguir ver como colocaria uma laço de repetição peço desculpas 
 
 
 
